@@ -50,7 +50,7 @@ To illustrate the fundamental operational workflow of the project, the repositor
 - models/: A directory for model-related code. At present, only partial implementations of basic module components are provided to demonstrate the existence of the proposed model architecture. The complete network configuration files will be released in a subsequent update.
 - tools/: A directory for related execution scripts. Currently, a simplified demonstration file is provided to illustrate the basic operational workflow of inference or evaluation.
 - requirements.txt: Lists the fundamental environment dependencies required for running the project.
-
+   ```
 # 4. Quick Start
 
 Although a complete end-to-end training pipeline is not yet provided, the basic dependency requirements can be examined based on the available project structure:
@@ -58,7 +58,6 @@ Although a complete end-to-end training pipeline is not yet provided, the basic 
 1. Recommended environment configuration:
    ```bash
    pip install -r requirements.txt
-   ```
 2. Examine the code structure and data format：
   You may navigate to the `datasets/` directory to inspect the limited sample data provided, or access the `models/` directory to review partial implementations of the network architecture definitions.
 
