@@ -67,7 +67,7 @@ Although a complete end-to-end training pipeline is not yet provided, the basic 
 If you find our work helpful, we kindly encourage you to cite our paper after it has been formally accepted for publication:
 
 ```bibtex
-@article{2026,
+@article{
   title={CPU-YOLO: A Riverine Garbage Detection Method Based on YOLOv11n},
   author={Yuan Chao, Miao Hu and Hengyu Lu},
   journal={Measurement Science and Technology},
