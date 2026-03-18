@@ -69,8 +69,7 @@ If you find our work helpful, we kindly encourage you to cite our paper after it
 ```bibtex
 @article{
   title={CPU-YOLO: A Riverine Garbage Detection Method Based on YOLOv11n},
-  author={Yuan Chao, Miao Hu and Hengyu Lu},
-  journal={Measurement Science and Technology},
+ 
   year={2026}
 }
 ```
