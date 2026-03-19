@@ -32,10 +32,8 @@ Representative samples of the dataset.
 
 The current directory structure of this repository and the corresponding locations of its contents are organized as follows:
 
-CPU-YOLO
-
-
 ```
+CPU-YOLO
 ├── datasets/            # Sample dataset directory
 ├── models/              # Model architecture directory
 ├── tools/               # Directory for running and testing scripts
