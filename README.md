@@ -21,6 +21,7 @@ Experiments on the My-Flow dataset and two public datasets demonstrate that the 
 To ensure the comprehensiveness and reliability of the experimental results, an experimental dataset named My-Flow is constructed by combining original images with augmented images. The original images consist of 440 self-collected riverine garbage images, 350 images from the publicly available Flow-Img dataset, and 350 images from the IWHR_AI_Lable_Floater_V1 dataset released by the China Institute of Water Resources and Hydropower Research.
 
 Representative samples of the dataset.
+
 <img width="229" height="162" alt="image" src="https://github.com/user-attachments/assets/3485af45-a90a-44f0-88af-cebfae97c709" />
 <img width="219" height="163" alt="image" src="https://github.com/user-attachments/assets/59ced4d7-c669-441e-b8b1-0a3d82c27830" />
 <img width="225" height="162" alt="image" src="https://github.com/user-attachments/assets/bc42e50c-b8bd-417a-8e04-9a0f141ff374" />
