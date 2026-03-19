@@ -34,7 +34,7 @@ The current directory structure of this repository and the corresponding locatio
 
 CPU-YOLO
 
-├── datasets/            # Sample dataset directory
+├── datasets/            # Sample dataset directory \n
 ├── models/              # Model architecture directory
 ├── tools/               # Directory for running and testing scripts
 ├── visualization/       # Directory for storing visualization result images.
