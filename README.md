@@ -96,7 +96,16 @@ The CPU-YOLO model was trained using the following settings:
 Please organize the dataset according to the following structure:
 
 ```text
-datasets/ ├── train │ ├── images │ └── labels ├── val │ ├── images │ └── labels └── test ├── images └── labels
+datasets/
+├── train
+│   ├── images
+│   └── labels
+├── valid
+│   ├── images
+│   └── labels
+└── test
+    ├── images
+    └── labels
 ```
 
 The dataset configuration file should be placed at:
