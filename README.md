@@ -52,13 +52,92 @@ To illustrate the fundamental operational workflow of the project, the repositor
    ```
 # 4. Quick Start
 
-Although a complete end-to-end training pipeline is not yet provided, the basic dependency requirements can be examined based on the available project structure:
+## Environment Setup
 
-1. Recommended environment configuration:
-   ```bash
-   pip install -r requirements.txt
-2. Examine the code structure and data format：
-  You may navigate to the `datasets/` directory to inspect the limited sample data provided, or access the `models/` directory to review partial implementations of the network architecture definitions.
+We recommend creating a new Python environment and installing all required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Experimental Configuration
+
+The experiments reported in this repository were conducted under the following environment:
+
+| Component        | Configuration                        |
+| ---------------- | ------------------------------------ |
+| Operating System | Windows 11                           |
+| Python           | 3.9                                  |
+| PyTorch          | 2.0.0                                |
+| CUDA             | 12.9                                 |
+| GPU              | NVIDIA GeForce RTX 5090 D v2 (24 GB) |
+| CPU              | Intel Core i7-11700F                 |
+| RAM              | 32 GB                                |
+
+## Training Configuration
+
+The CPU-YOLO model was trained using the following settings:
+
+| Parameter      | Value     |
+| -------------- | --------- |
+| Input Size     | 640 × 640 |
+| Epochs         | 600       |
+| Batch Size     | 8         |
+| Optimizer      | SGD       |
+| AMP            | Enabled   |
+| Workers        | 2         |
+| Close Mosaic   | 30        |
+| Early Stopping | Disabled  |
+
+## Dataset Preparation
+
+Please organize the dataset according to the following structure:
+
+```text
+datasets/
+├── images
+│   ├── train
+│   ├── val
+│   └── test
+└── labels
+    ├── train
+    ├── val
+    └── test
+```
+
+The dataset configuration file should be placed at:
+
+```text
+datasets/data.yaml
+```
+
+## Training
+
+Launch model training with:
+
+```bash
+python train.py
+```
+
+The trained weights will be automatically saved to:
+
+```text
+runs/train/weights/
+```
+
+## Project Structure
+
+```text
+CPU-YOLO/
+├── datasets/
+├── ultralytics/
+├── train.py
+├── predict.py
+├── benchmark.py
+├── requirements.txt
+├── README.md
+└── CPU-YOLO.yaml
+```
 
 ---
 # 5. Citation
