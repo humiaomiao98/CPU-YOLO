@@ -11,7 +11,7 @@ To facilitate the peer-review process, this repository currently provides only p
 # 1.  Abstract
 
 This paper proposes CPU-YOLO, an improved riverine garbage detection method based on YOLOv11n that incorporates Cascade Group Attention, a P2 small-object detection layer, and the UIoU loss function to enhance feature discrimination, small-object detection, and bounding box regression robustness in complex riverine environments. 
-
+---
 # 2.  Experimental Results
 
 Experiments on the My-Flow dataset and two public datasets demonstrate that the proposed method achieves consistent improvements in precision, recall, and mAP while maintaining a real-time inference speed of 384.6 FPS.
@@ -50,6 +50,7 @@ To illustrate the fundamental operational workflow of the project, the repositor
 - tools/: A directory for related execution scripts. Currently, a simplified demonstration file is provided to illustrate the basic operational workflow of inference or evaluation.
 - requirements.txt: Lists the fundamental environment dependencies required for running the project.
    ```
+---
 # 4. Quick Start
 
 ## Environment Setup
@@ -94,15 +95,7 @@ The CPU-YOLO model was trained using the following settings:
 Please organize the dataset according to the following structure:
 
 ```text
-datasets/
-├── images
-│   ├── train
-│   ├── val
-│   └── test
-└── labels
-    ├── train
-    ├── val
-    └── test
+datasets/ ├── train │ ├── images │ └── labels ├── val │ ├── images │ └── labels └── test ├── images └── labels
 ```
 
 The dataset configuration file should be placed at:
