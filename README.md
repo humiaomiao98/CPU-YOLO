@@ -11,6 +11,7 @@ To facilitate the peer-review process, this repository currently provides only p
 # 1.  Abstract
 
 This paper proposes CPU-YOLO, an improved riverine garbage detection method based on YOLOv11n that incorporates Cascade Group Attention, a P2 small-object detection layer, and the UIoU loss function to enhance feature discrimination, small-object detection, and bounding box regression robustness in complex riverine environments. 
+
 ---
 # 2.  Experimental Results
 
