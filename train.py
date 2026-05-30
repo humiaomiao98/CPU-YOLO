@@ -10,7 +10,7 @@ if __name__ == '__main__':
                 imgsz=640,
                 epochs=600,
                 single_cls=False,
-                batch=8,
+                batch=16,
                 patience=0,
                 close_mosaic=30,
                 workers=2,
