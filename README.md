@@ -149,7 +149,7 @@ If you find our work helpful, we kindly encourage you to cite our paper after it
 
 ```bibtex
 @article{
-  title={CPU-YOLO: A Riverine Garbage Detection Method Based on YOLOv11n},
+  title={CPU-YOLO: A Lightweight Visual Perception Framework for Riverine Garbage Detection},
  
   year={2026}
 }
