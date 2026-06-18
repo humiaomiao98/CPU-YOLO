@@ -1,4 +1,4 @@
-# CPU-YOLO: A Riverine Garbage Detection Method Based on YOLOv11n
+# CPU-YOLO: A Lightweight Visual Perception Framework for Riverine Garbage Detection
 
  Important Notice
 
